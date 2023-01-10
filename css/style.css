@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(23, 100, 177);
+    background-attachment: fixed;
+}
+
+.card{
+    margin-top: 180px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.cursor:hover{
+    color: #444 !important;
+}
+
+.active{
+    color: #444 !important;
+}

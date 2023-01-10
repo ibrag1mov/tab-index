@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab index</title>
+
+    <!-- bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card w-50 mx-auto shadow p-5 pb-3">
+            <form class="js-form input-group">
+                <input class="form-control w-75 js-input" type="number" placeholder="Enter tab index">
+                <button class="btn bg-secondary bg-opacity-25">Change Tab</button>
+            </form>
+            <ul class="d-flex w-50 justify-content-between list-inline pt-3 js-list">
+                <li class="fs-5 fw-semibold text-secondary cursor text-uppercase me-3 active positive">Positive</li>
+                <li class="fs-5 fw-semibold text-secondary cursor text-uppercase me-3 negative">Negative</li>
+                <li class="fs-5 fw-semibold text-secondary cursor text-uppercase neutral">Neutral</li>
+            </ul>
+            <p class=" fs-4"><span class="js-res"></span> content</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
